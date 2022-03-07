@@ -4,7 +4,7 @@
 
 
 ## Description
-This project is meant to give you your first name if you would have been born in the Akan community using your birthday.
+This project is meant to give you your first name if you would have been born in the **Akan community** using your birthday.
 
 In the Akan Community in Ghana children are given the first name based on the day in which they are born. This happens for both genders. For example if one is Male, the first name would be as follows:
 
@@ -25,6 +25,8 @@ And if one is female, the name would be:
 - Thursday:  Yaa
 - Friday: Afua
 - Saturday: Ama
+
+![Akan Couple](/assets/akan.jpeg)
 
 Given the birth date, the program will determine what day of the week you were born, hence **your Akan name**. To find out what your name would be click [here]()
 
