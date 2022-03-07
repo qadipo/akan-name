@@ -26,7 +26,7 @@ And if one is female, the name would be:
 - Friday: Afua
 - Saturday: Ama
 
-![Akan Couple](/assets/akan.jpeg)
+![Akan Couple](akan.jpeg)
 
 Given the birth date, the program will determine what day of the week you were born, hence **your Akan name**. To find out what your name would be click [here]()
 
