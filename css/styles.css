@@ -1,0 +1,45 @@
+html{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+  }
+  p{
+    font-size: 18px;
+  }
+  header{
+    background-color: #e632f6;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  header h1{
+    color: white;
+    border: 8px solid white;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 36px;
+  }
+.banner{
+    position: relative;
+    top: 130px;
+}
+.banner img{
+    max-width:100%;
+}
+.banner .welcome{
+    background-color: pink;
+    position: absolute;
+    top: 0px;
+    left: 625px;
+}
+  
