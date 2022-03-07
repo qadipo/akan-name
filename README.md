@@ -29,3 +29,14 @@ And if one is female, the name would be:
 Given the birth date, the program will determine what day of the week you were born, hence **your Akan name**. To find out what your name would be click [here]()
 
 Since *most* people do not know what day of the week they were born, we will use the following formula to determine the same:
+
+    d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+
+ where;
+
+ *d* - is the day of the week
+ *CC* - is the century digits. For example 1989 has CC = 19
+ *YY* - is the Year digits (1989 has YY = 89)
+ *MM* -  is the Month
+ *DD* - is the Day of the month 
+ *mod* - is the modulus function ( % )
