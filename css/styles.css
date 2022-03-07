@@ -1,14 +1,13 @@
 html{
     background-color: black;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
     margin: auto;
 }
 body, ul, li, h1, h2, a{
     margin: 0;
     padding: 0;
-    font-family: tahoma;
+    font-family: 'arial narrow';
   }
   p{
     font-size: 18px;
@@ -88,6 +87,8 @@ li{
     bottom: 0px;
     border: whitesmoke;
     border-style: solid;
+    text-align: center;
+    font-size: 1.5em;
 }
 .copyright{
     background-color: white;
@@ -100,5 +101,8 @@ li{
     border-style: solid;
     color: blue;
     text-align: center;
-    display: inline-block;border-radius: 36px;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
 }
+.
