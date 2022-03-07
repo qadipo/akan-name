@@ -27,7 +27,7 @@ body, ul, li, h1, h2, a{
     color: white;
     border: 8px solid white;
     display: inline-block;
-    padding: 6px 12px;
+    padding: 12px 12px;
     border-radius: 36px;
   }
 .banner{
@@ -37,6 +37,8 @@ body, ul, li, h1, h2, a{
 }
 .banner img{
     max-width:100%;
+    border: gold;
+    border-style: solid;
 }
 .banner .welcome{
     background-color: #ffecb3;
@@ -44,9 +46,9 @@ body, ul, li, h1, h2, a{
     top: 0px;
     /* left: 837px; */
     right: 0px;
-    top: 50px;
-    height: 75%;
-    width: 61.5%;
+    top: 25px;
+    height: 67%;
+    width: 63%;
     border: #e632f6;
     border-style: solid;
     vertical-align: bottom;
@@ -62,15 +64,41 @@ li{
 }
 .banner h2{
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.25em;
     padding: 6px 0;
+    border-radius: 36px;
+    border: #ffecb3;
+    border-style: solid;
+    background-color: black;
 }
 .banner h3{
     text-align: center;
 }
 .banner p{
     text-align: center;
-    font-size: 2.25em;
+    font-size: 2em;
     
 }
-  
+.join{
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    width: 63%;
+    height: 16.5%;
+    bottom: 0px;
+    border: whitesmoke;
+    border-style: solid;
+}
+.copyright{
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    /* width: 61.5%; */
+    height: -5%;
+    bottom: -110px;
+    border: blueviolet;
+    border-style: solid;
+    color: blue;
+    text-align: center;
+    display: inline-block;border-radius: 36px;
+}
