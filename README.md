@@ -40,3 +40,15 @@ Since *most* people do not know what day of the week they were born, we will use
  *MM* -  is the Month
  *DD* - is the Day of the month 
  *mod* - is the modulus function ( % )
+
+## Project Setup
+This project has been built with the following:
+1. JavaScript
+2. CSS
+3. HTML
+And is therefore compartible will all modern browsers and can be done using any text editor and browser.
+
+## Live Page
+Click [here]()
+
+
