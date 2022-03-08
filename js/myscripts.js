@@ -1,10 +1,24 @@
+var inputDate = ''
+var inputGender = ''
 function getInputValue(){
-    var inputDate = document.getElementById("birthday").value;
-    var inputGender = document.getElementById().value;
-}
-var dayofWeek = inputDate.getDay()
+    inputDate = document.getElementById("birthday").value;
+    // var inputGender = document.getElementsByName('gender');
+    // var inputGender=''
+    if(document.getElementById("male").checked){
+        inputGender = document.getElementById('male').value;
 
-function givenName(dayofWeek){
+    }
+    else if(document.getElementById("female").checked){
+        inputGender = document.getElementById('female').value;
+
+    }
+}
+
+var dayofWeek = inputDate.getDay();
+var ccDate = inputDate.slice()
+
+
+function givenName(dayofWeek, inputGender){
     if (inputGender == "Male"){
         var nameGiven = '';
         if(dayofWeek === 0){
@@ -39,4 +53,5 @@ function givenName(dayofWeek){
             nameGiven = "Ama"
         }
     }
+    return nameGiven;
 }
