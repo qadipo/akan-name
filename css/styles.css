@@ -46,8 +46,8 @@ body, ul, li, h1, h2, a{
     /* left: 837px; */
     right: 0px;
     top: 25px;
-    height: 63%;
-    width: 63%;
+    height: 75%;
+    width: 55%;
     border: #e632f6;
     border-style: solid;
     vertical-align: bottom;
@@ -66,9 +66,11 @@ li{
     font-size: 2.25em;
     padding: 6px 0;
     border-radius: 36px;
+    position: relative;
     border: #ffecb3;
     border-style: solid;
     background-color: black;
+    top: 35px;
 }
 .banner h3{
     text-align: center;
@@ -76,19 +78,21 @@ li{
 .banner p{
     text-align: center;
     font-size: 2em;
-    
+
 }
 .join{
     background-color: red;
     position: absolute;
     right: 0px;
-    width: 63%;
-    height: 16.5%;
-    bottom: 0px;
+    width: 55%;
+    height: 22.5%;
+    bottom: -380px;
     border: whitesmoke;
     border-style: solid;
     text-align: center;
     font-size: 1.5em;
+    right: 0px;
+
 }
 .join h2{
     color: black;
@@ -107,5 +111,6 @@ li{
     display: inline-block;
     border-radius: 15px;
     text-align: center;
+    bottom: -435px;
 }
 .
