@@ -100,7 +100,7 @@ function givenName(dayofWeek, inputGender){
             nameGiven = "Ama"
         }
     }
-    return alert("Your Akan name is " + nameGiven);
+    return nameGiven;
 }
 
 function operation1(){
