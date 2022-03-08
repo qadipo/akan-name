@@ -90,6 +90,9 @@ li{
     text-align: center;
     font-size: 1.5em;
 }
+.join h2{
+    color: black;
+}
 .copyright{
     background-color: white;
     position: absolute;
