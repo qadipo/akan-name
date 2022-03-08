@@ -14,7 +14,7 @@ function getInputValue(){
     }
 }
 
-function genderValidation{
+function genderValidation(inputGender){
     if (inputGender == ''){
         alert('Please choose your gender then submit');
     }
@@ -60,7 +60,9 @@ function dayofWeekFunction(dayDate, month, year){
     var MM = parseInt(month);
     var DD = parseInt(dayDate);
 
-    var dayofWeek = ((((CC/4) - 2*CC-1) + ((5*YY/4)) + ((26*(MM+1)/10)) + DD) % 7)
+    var dayofWeek = ((((CC/4) - 2*CC-1) + ((5*YY/4)) + ((26*(MM+1)/10)) + DD) % 7);
+
+    return dayofWeek;
 }
 
 function givenName(dayofWeek, inputGender){
@@ -98,6 +100,14 @@ function givenName(dayofWeek, inputGender){
             nameGiven = "Ama"
         }
     }
-    return nameGiven;
+    return alert("Your Akan name is " + nameGiven);
 }
 
+function operation1(){
+    getInputValue();
+    genderValidation(inputGender);
+    dateValidation(inputDate);
+    monthValidation(month);
+    yearValidation(year);
+    givenName(dayofWeek, inputGender)
+}
