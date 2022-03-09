@@ -28,7 +28,7 @@ And if one is female, the name would be:
 
 ![Akan Couple](akan.jpeg)
 
-Given the birth date, the program will determine what day of the week you were born, hence **your Akan name**. To find out what your name would be click [here]()
+Given the birth date, the program will determine what day of the week you were born, hence **your Akan name**. To find out what your name would be click [here](https://qadipo.github.io/akan-name/)
 
 Since *most* people do not know what day of the week they were born, we will use the following formula to determine the same:
 
@@ -51,6 +51,6 @@ This project has been built with the following:
 And is therefore compartible will all modern browsers and can be done using any text editor and browser.
 
 ## Live Page
-Click [here]()
+Click [here](https://qadipo.github.io/akan-name/)
 
 
